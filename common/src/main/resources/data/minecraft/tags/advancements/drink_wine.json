@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "vinery:wine"
+    },
+    "title": {
+      "translate": ""
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:wine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wine"
+    ]
+  ],
+  "values": [
+
+  ]
+}
